@@ -17,27 +17,27 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Myanmar&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
 </head>
-<body class="vh-100 vw-100 d-flex justify-content-center align-items-center flex-column" >
+<body class="vh-100 vw-100 d-flex justify-content-center align-items-center flex-column gap-4" >
 
-    <main class="d-flex flex-column border rounded" id="borderr">
-    <div class="text-center">
+    <main class="d-flex flex-column border rounded-3 p-5" id="borderr">
+    <div class="text-center mb-3">
         <img src="assets/google-full-logo.svg" width="75" height="24">
     </div>
 
     <div>
-        <h3 class="text-center">Sign in</h3>
-        <p class="text-center">Use your Google Account</p>
+        <h6 class="text-center mb-2 fs-3">Sign in</h6>
+        <p class="text-center mb-5">Use your Google Account</p>
 
 
     </div>
 
     
     
-    <input type="emailorphone" name="emailorphone" id="emailorphone" required placeholder="Email or phone">
+    <input type="emailorphone" name="emailorphone" id="emailorphone" required placeholder="Email or phone" class="p-2">
 
-    <div><a href="#"> Forgot email?</a></div>
+    <div class="mb-5 mt-2"><a href="#" class="text-decoration-none"> Forgot email?</a></div>
 
-    <p> Not your computer? Use Guest mode to sign in privately. <a href="#">Learn more</a></p>
+    <p class="mb-5"> Not your computer? Use Guest mode to sign in privately. <a href="#" class="text-decoration-none">Learn more</a></p>
 
     <div>
         <button>
@@ -54,7 +54,8 @@
 </main>
 <!--footer-->
 <footer>
-    <ul class="d-flex flex-row">
+    <ul class="d-flex flex-row gap-4">
+        
         <li>
             <select name="Language">
                 <option value="العربية (Arabic)">
@@ -121,14 +122,15 @@
                 </option>
             </select>
         </li>
+    
         <li>
-           <a href="#"> Help </a>
+           <a href="#" class="text-decoration-none"> Help </a>
         </li>
         <li>
-            <a href="#">Privacy</a>
+            <a href="#" class="text-decoration-none">Privacy</a>
         </li>
         <li>
-            <a href="#">Terms</a>
+            <a href="#" class="text-decoration-none">Terms</a>
         </li>
     </ul>
 </footer>
