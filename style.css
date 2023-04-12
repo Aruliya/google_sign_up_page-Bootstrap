@@ -14,4 +14,12 @@ h6{
 }
 .mb-5{
     font-size: 14px;
+    color: #5F6368;
+}
+#next{
+    background-color: #047eea;
+}
+#footerr{
+    font-size: 12px;
+    
 }
